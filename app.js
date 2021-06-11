@@ -14,10 +14,10 @@ app.get("/", function(req, res) {
 
 
 app.post("/", function(req, res) {
-    const url = "https://us6.api.mailchimp.com/3.0/lists/a5e7152dae";
+    const url = "your_mailchimp_url";
     const options = {
         method: "POST",
-        auth: "bucketles:55b448ecb5892f85e413831e85f8141f-us6"
+        auth: "name: your_mailchimp_api"
     };
 
     const firstName = req.body.fname
